@@ -1,0 +1,54 @@
+{
+  "name": "@curia_/cg-plugin-lib-host",
+  "version": "1.0.1",
+  "description": "Drop-in replacement for Common Ground plugin host library with cryptographic signing and verification",
+  "author": "Florian Glatz",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "KEY_FORMAT_SUPPORT.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"No tests yet\"",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "plugin",
+    "iframe",
+    "common-ground",
+    "host",
+    "crypto",
+    "signing",
+    "verification",
+    "ecdsa",
+    "rsa",
+    "server",
+    "authentication",
+    "security"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
