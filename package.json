@@ -1,6 +1,6 @@
 {
   "name": "@curia_/cg-plugin-lib-host",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Drop-in replacement for Common Ground plugin host library with cryptographic signing and verification",
   "author": "Florian Glatz",
   "license": "MIT",
