@@ -27,6 +27,7 @@ export type {
   UserInfoResponsePayload,
   CommunityInfoResponsePayload,
   UserFriendsResponsePayload,
+  IrcCredentials,
   MessageType,
   HostMessage,
   PluginConfig,

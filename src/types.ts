@@ -86,6 +86,20 @@ export interface UserFriendsResponsePayload {
 }
 
 /**
+ * IRC credentials response payload for chat functionality
+ */
+export interface IrcCredentials {
+  /** Whether IRC provisioning was successful */
+  success: boolean;
+  /** IRC username for The Lounge client */
+  ircUsername: string;
+  /** IRC password for The Lounge client */
+  ircPassword: string;
+  /** IRC network name */
+  networkName: string;
+}
+
+/**
  * Internal message types for host communication
  * These handle the postMessage protocol between plugin and host
  */
