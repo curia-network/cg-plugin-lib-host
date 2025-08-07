@@ -1,6 +1,6 @@
 {
   "name": "@curia_/cg-plugin-lib-host",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Drop-in replacement for Common Ground plugin host library with cryptographic signing and verification",
   "author": "Florian Glatz",
   "license": "MIT",
@@ -42,8 +42,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
